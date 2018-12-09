@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="C:\\Users\\nagen\\eclipse-workspace\\CucumberFirst\\src\\test\\java\\Features",
+@CucumberOptions(features="C:\\Users\\nagen\\git\\Cucumber\\CucumberFirst\\src\\test\\java\\Features\\login.feature",
  				  glue="stepDefinations",
  				  dryRun=false,
  				  strict=true,

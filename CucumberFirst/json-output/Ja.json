@@ -1,0 +1,79 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verification of Login transcations",
+        "description": "",
+        "id": "application-login;verification-of-login-transcations",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9266634051,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Login Page",
+            "match": {
+              "location": "gmail.login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2063646114,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User cliked on submit button by providing userid and password",
+            "match": {
+              "location": "gmail.user_cliked_on_submit_button_by_providing_and(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "nagendrab493",
+                  "jahnavi493"
+                ],
+                "line": 6
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6975247356,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Application Home Page is displayed",
+            "match": {
+              "location": "gmail.application_home_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2122942982,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "able to do another transcation from this screen",
+            "match": {
+              "location": "gmail.able_to_do_another_transcation_from_this_screen()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
